@@ -1,64 +1,49 @@
-Aim Trainer with Pygame
+# Aim Trainer
 
-This aim trainer is a simple game built using Pygame, a popular Python library for creating 2D games. The aim of this trainer is to help improve your aim and reflexes by shooting at moving targets.
-Features
+Aim Trainer is a simple game built with Python and Pygame that helps improve your aiming skills. The objective of the game is to click on randomly appearing targets as quickly and accurately as possible.
 
-    Multiple difficulty levels: The game offers different difficulty levels to cater to players of various skill levels. You can choose between easy, medium, and hard modes to challenge yourself accordingly.
+## Requirements
 
-    Moving targets: The game generates random moving targets that you must shoot to earn points. The targets move at varying speeds and directions to provide a dynamic and challenging experience.
+- Python 3.x
+- Pygame
 
-    Score tracking: Your score is displayed on the screen, allowing you to track your progress and aim for higher scores. The aim trainer keeps track of your score throughout the game session.
+## Installation
 
-    Timer: The game also includes a timer that starts when you begin playing. This adds an element of urgency and encourages you to react quickly to hit the targets within the given time limit.
+1. Clone the repository:
 
-Requirements
+   ```
+   git clone <repository-url>
+   ```
 
-To run the aim trainer, you need to have the following requirements installed:
+2. Navigate to the project directory:
 
-    Python 3.x: Make sure you have Python 3.x installed on your system. You can download it from the official Python website: https://www.python.org/downloads/
+   ```
+   cd aim-trainer
+   ```
 
-    Pygame: Pygame is required to run the game. You can install it using the following command:
+3. Install the required dependencies:
 
-    shell
+   ```
+   pip install -r requirements.txt
+   ```
 
-    pip install pygame
+## Usage
 
-Usage
+Run the `aimtrainer.py` script to start the game:
 
-    Clone the repository to your local machine:
+```
+python aimtrainer.py
+```
 
-    shell
+- Targets will appear randomly on the game screen.
+- Use your mouse to click on the targets as quickly as possible.
+- The top bar displays various statistics, including time, speed, hits, and remaining lives.
+- The game ends when you run out of lives (misses).
+- After the game ends, an end screen will display your performance statistics, including time, speed, hits, and accuracy.
 
-git clone https://github.com/your-username/aim-trainer-pygame.git
+## Contributing
 
-Navigate to the project directory:
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-shell
 
-cd aim-trainer-pygame
-
-Run the game:
-
-shell
-
-    python aim_trainer.py
-
-    Select a difficulty level when prompted.
-
-    Use the mouse to aim and left-click to shoot at the moving targets.
-
-    Try to hit as many targets as possible within the given time limit.
-
-    Once the game ends, your final score will be displayed.
-
-Contributing
-
-Contributions to the aim trainer are welcome! If you'd like to add new features, improve existing functionality, or fix any issues, please feel free to open a pull request. Make sure to follow the project's code style and provide a clear description of your changes.
-License
-
-This aim trainer is open source and available under the MIT License.
-Acknowledgements
-
-The aim trainer was developed by [Your Name]. The project was built using Pygame and was inspired by various aim trainers available online. We would like to express our gratitude to the Pygame community for their excellent library and the open-source community for their valuable contributions to the gaming ecosystem.
-
-Feel free to modify this README template to suit your specific aim trainer project. Include any additional sections, instructions, or acknowledgments that are relevant to your implementation. Good luck with your aim trainer!
+Feel free to modify and expand upon this `readme.md` file as needed for your project.
